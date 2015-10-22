@@ -1,4 +1,4 @@
-var userAPIToken = "xxxxx";
+var userAPIToken = "YOUR_API_TOKEN";
 var userAPIAccountURL = "https://1broker.com/api/v1/account/info.php?token="+userAPIToken+"&pretty=1";
 var marketList = "https://1broker.com/api/v1/market/list.php?token="+userAPIToken+"&pretty=1";
 var marketSymbol = "EURUSD";
