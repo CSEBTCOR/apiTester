@@ -12,3 +12,13 @@ app.factory('apiMarketGrab', ['$http', function($http) {
             return err;
         });
 }]);
+
+app.factory('apiPriceGrab', ['$http', function($http) {
+    return $http.get(marketPrice)
+        .success(function(data) {
+            return data;
+        })
+        .error(function(err) {
+            return err;
+        });
+}]);
